@@ -8,48 +8,16 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <style>
-      #profile_picture {
-        display: block;
-        max-width: 80%;
-        margin: auto;
-        background-color: blue;
-      }
-    </style>
-
     <title>Hello, world!</title>
   </head>
   <body>
-
-    <!-- Container -->
-    <div class="container" style="background-color:antiquewhite">
-        <!-- Nav bar --->
-        <?php require "navbar.php"; ?>
-
-        <!-- Main body -->
-        <!-- First Row -->
-        <div class="row">
-          <!-- Profile Picture Column -->
-          <div class="col-md-4 order-md-12" style="background-color: green;">
-            <img src="img/profile_picture.png" id="profile_picture"/>
-          </div>
-          <!-- Welcome Column -->
-          <div class="col-md-8 order-md-1" style="background-color:red;">
-            <div class="jumbotron">
-              Welcome to my portfolio
-            </div>
-          </div>
-          
-        </div>
-
+    <div class="container">
+    <?php
+        require "navbar.php";
+    ?>
     </div>
-    <div class="container-fluid">
-    <?php require "footer.php"; ?>
-    </div>
-      
 
-
-
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
