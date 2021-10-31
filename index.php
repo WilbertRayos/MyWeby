@@ -15,6 +15,7 @@
         margin: auto;
         background-color: blue;
       }
+      
     </style>
 
     <title>Hello, world!</title>
@@ -28,18 +29,21 @@
 
         <!-- Main body -->
         <!-- First Row -->
-        <div class="row">
+        <div class="row mt-md-3">
           <!-- Profile Picture Column -->
-          <div class="col-md-4 order-md-12" style="background-color: green;">
+          <div class="col-md-4 order-md-12">
             <img src="img/profile_picture.png" id="profile_picture"/>
           </div>
           <!-- Welcome Column -->
-          <div class="col-md-8 order-md-1" style="background-color:red;">
+          <div class="col-md-8 order-md-1" >
             <div class="jumbotron">
-              Welcome to my portfolio
+              <div class="display-4">Welcome to my website</div>
+              <hr class="my-4" />
+              <p class="lead">
+                I am Wilbert Raymund R. Rayos, the owner of this website.
+              </p>
             </div>
           </div>
-          
         </div>
 
     </div>
